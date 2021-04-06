@@ -1,0 +1,8 @@
+<decorators defaultdir="/WEB-INF/views/jsp">
+	<decorator name="admin" page="admin/admin.jsp">
+		<pattern>/admin/*</pattern>
+	</decorator>
+	<decorator name="index" page="index.jsp">
+		<pattern>/index</pattern>
+	</decorator>
+</decorators>
